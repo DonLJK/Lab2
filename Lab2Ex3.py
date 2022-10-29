@@ -30,6 +30,7 @@ def get_user_input():
     return val1
 
 
+
 def find_min_max():
     print("find_min_max")
 
@@ -42,6 +43,5 @@ def calc_median_temperature():
 
 print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to python")
 display_main_menu()
-get_user_input()
-calc_average()
+print(get_user_input())
 
